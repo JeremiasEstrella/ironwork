@@ -1,0 +1,71 @@
+:root{
+    --main-colorgris:#3F4044;
+    --main-colorcafe:#511701;
+    --main-textopequeno: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --main-textogrande:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.disenio{
+    list-style-image: url('decoracion.png');
+    color:white;
+    font-family: var(--main-textopequeno);
+}
+
+table{
+    height: 550px;
+    width: 850px;
+    border-spacing: 10px 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+}
+th{
+    background-color: rgba(81, 23, 1, 0.8);
+    font-size: 18px;
+    font-family: var(--main-textopequeno); 
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 2px;
+}
+td{
+    color: whitesmoke;
+    font-family: var(--main-textogrande); 
+    border-bottom: 2px white solid;
+    border-radius: 5px;
+}
+.cent{
+    text-align: center;
+}
+
+.contcentr{
+    width: 850px;
+    height: 550px;
+    background-image: url('metalesfondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:10px;
+    vertical-align: top;
+}
+marquee{
+    width: 240px;
+    height: 550px;
+}
+#flt{
+    display: inline-block;
+}
+.contgigante{
+    margin: auto;
+    width: 1200px;
+    height: 550px;
+    margin-top: 20px;
+}
+.contcentr2{
+    margin-left: 40px;
+    width: 300px;
+    height: 550px;
+}
+.contcentr2 p{
+    color: var(--main-colorcafe);
+    font-family: var(--main-textopequeno);
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px var(--main-colorgris) solid;
+}
