@@ -1,0 +1,64 @@
+:root{
+    --main-colorgris:#3F4044;
+    --main-colorcafe:#511701;
+    --main-textopequeno: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --main-textogrande:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#suc1{
+width: 200px;
+height: 70px;
+margin: auto;
+margin-left: 10px;
+margin-top: 10px;
+}
+.contblancosub1{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+.contblancosub2{
+    width: 590px;
+    height: 450px;
+    display: inline-block;
+    vertical-align: top;
+}
+.contblancosub2 p{
+    font-size: 15px;
+    color:var(--main-colorgris);
+    font-family: var(--main-textopequeno);
+    display: inline-block;
+    
+}
+#contblanco{
+clear: both;
+width: 1000px;
+margin: auto;
+margin-top: 20px;
+}
+.iconos{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    fill: var(--main-colorcafe);
+}
+.textinput{
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 2px var(--main-colorgris) solid ;
+    color: gray;
+}
+.btninput{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: var(--main-colorcafe);
+    color: white;
+    border: none;
+    margin-left: 20px;
+}

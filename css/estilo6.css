@@ -1,0 +1,93 @@
+:root{
+    --main-colorPrin:white;
+    --main-colorSec:#511701;
+    --main-colorTer:#3F4044;
+    --main-textopequeno: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --main-textogrande:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#contenedorcatalogo{
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+.imagencatalogo{
+    width: 200px;
+    height: 80px;
+}
+#ajuste{
+    font-size: 20px;
+    float: right;
+    vertical-align: bottom;
+}
+#cat{
+    width: 1200px;
+}
+#cat2{
+    width: 1200px;
+    text-align: center;
+}
+.formatoimagen{
+    width: 200px;
+    height: 160px;
+}
+#fldiv{
+    width: 400px;
+    height: 380px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#imgancentro{
+    text-align: center;
+}
+#enorme{
+    font-size: 30px;
+    color:var(--main-colorSec);
+    font-family: var(--main-textogrande);
+}
+#grs{
+    font-size: 20px;
+    color:var(--main-colorTer);
+}
+.pedido{
+    clear: both;
+    border-top:2px var(--main-colorTer) solid;
+    margin: auto;
+    width: 1200px;
+    height: 380px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.especial{
+    width: 590px;
+    height: 380px;
+    display: inline-block;
+    vertical-align: top;
+}
+.especial t1{
+   font-size: 40px;
+   color: var(--main-colorSec);
+
+}
+.imagenespecial{
+    width: 400px;
+    height: 250px;
+}
+.textinput{
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 2px var(--main-colorTer) solid ;
+    color: gray;
+}
+.btninput{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: var(--main-colorSec);
+    color: white;
+    border: none;
+    margin-left: 20px;
+}

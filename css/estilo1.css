@@ -1,0 +1,164 @@
+:root{
+    --main-colorgris:#3F4044;
+    --main-colorcafe:#511701;
+    --main-textopequeno: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --main-textogrande:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#contgrandegris{
+    clear: both;
+    margin-top: 20px;
+    height: 350px;
+    background-color:var(--main-colorgris);
+    text-align: center;
+   
+}
+#conticonos{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 2%;
+}
+.svgicon1{
+    width: 170px;
+    height: 170px;
+    fill: white;
+}
+.svgicon2{
+    margin-top: 20px;
+    width: 140px;
+    height: 140px;
+    fill: white;
+    margin-bottom: 10px;
+}
+.svgicon3{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    fill: white;
+    margin-bottom: 10px;
+}
+.svgicon4{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+#conticonos t1 {
+    color: white;
+    font-size: 30px;
+    font-family: var(--main-textogrande);
+    letter-spacing: 3px;
+}
+#conticonos p {
+    color: white;
+    font-size: 18px;
+    font-family: var(--main-textopequeno);
+}
+.contblanco{
+    margin-top: 10px;
+    text-align: center;
+    clear: both;
+    color: var(--main-colorgris);
+}
+.conttextblanco{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: var(--main-textogrande);
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.contetextblancogris{
+    margin: auto;
+    width: 600px;
+    height: 150px;
+    clear: both;
+    font-family: var(--main-textopequeno);
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.contenedorfinal{
+    width: 1200px;
+    margin: auto;
+}
+.contenedores{
+    width: 350px;
+    height: 850px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.imagecont{
+    width: 100%;
+    height: 300px;
+}
+#gris{
+    background: var(--main-colorgris);
+    color: white;
+}
+.cafe{
+    background: var(--main-colorcafe);
+    color: white;
+}
+.conttext{
+    width: 100%;
+    height: 600px;
+}
+.textos{ 
+    margin: auto;
+    width: 70%;
+    margin-top: 10px;
+    height: 450px;
+}
+.textos t1{
+    font-size: 30px;
+    font-family: var(--main-textogrande);
+}
+.textos p{
+    text-align: justify;
+    font: 20px;
+    font-family: var(--main-textopequeno);
+    word-spacing: 3px;
+    height: 300px;
+    border:1px white ;
+}
+.boton{
+    margin: auto;
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+}
+:root{
+    --main-alto:10px;
+    --main-ancho:50px;
+}
+.boton a{
+     text-decoration: none;
+     font-size: 18px;
+     padding-top:var(--main-alto);
+     padding-bottom:var(--main-alto);
+     padding-left: var(--main-ancho);
+     padding-right:var(--main-ancho);  
+     color:var(--main-colorcafe);
+     background:white ;
+     vertical-align: middle;
+     border-radius: 2px;
+     margin-top: 30px;
+}
+.boton a:hover{
+    text-decoration: none;
+    padding-top:var(--main-alto);
+    padding-bottom:var(--main-alto);
+    padding-left: var(--main-ancho);
+    padding-right:var(--main-ancho);  
+    color:white;
+    background:rgb(85, 84, 84) ;
+    vertical-align: middle;
+    border-radius: 2px;
+    margin-top: 30px;
+}

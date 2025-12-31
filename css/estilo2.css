@@ -1,0 +1,45 @@
+:root{
+    --main-colorgris:#3F4044;
+    --main-colorcafe:#511701;
+    --main-textopequeno: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --main-textogrande:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#contletra1{
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+.backimagen{
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+}
+.conttextblanco{
+    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: var(--main-textogrande);
+    font-size: 30px;
+    letter-spacing: 3px;
+    color:var(--main-colorgris) ;
+}
+.svgicon4{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+.contetextblancogris{
+    margin: auto;
+    width: 600px;
+    height: 100px;
+    font-family: var(--main-textopequeno);
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 10px;
+    color: var(--main-colorgris);
+}
+.video{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
